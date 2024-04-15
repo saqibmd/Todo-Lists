@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main {
+  height: 100vh;
+  width: 100vw;
+}
+
+#main > h1 {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+#user-input {
+  width: 100%;
+  margin-top: 4vw;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+#user-input input {
+  /* width: 80%; */
+  height: 7vh;
+  text-align: center;
+  font-size: 1vw;
+  border: none;
+  /* background-color: turquoise; */
+}
+
+#todo {
+  border-radius: 50px;
+  background-color: aliceblue;
+}
+
+#date {
+  text-align: center;
+  font-size: 1vw;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+#user-input button {
+  padding: 1vw 3vw;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(202, 253, 202);
+  cursor: pointer;
+}
+
+#todo-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  text-align: center;
+}
+
+#todo-items {
+  text-align: center;
+  padding: 1vw 0;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  flex-direction: column;
+  margin-top: 2vh;
+  /* width: 50vw; */
+}
+
+#all-data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2vh;
+}
+
+#all-data-container button {
+  text-align: center;
+  padding: 1vw 1vw;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(252, 205, 205);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+#all-data-container button:hover {
+  background-color: rgb(255, 153, 153);
+  padding: 1.3vw 1.3vw;
+}
